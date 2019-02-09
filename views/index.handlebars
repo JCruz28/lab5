@@ -7,6 +7,7 @@
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.css" rel="stylesheet">
 	<link href="css/hci-friends.css" rel="stylesheet">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 </head>
 
 <div class="container">
@@ -16,7 +17,7 @@
 		{{#each friends}}
 		<div class="friend">
 			<img src="{{imageURL}}" class="img-responsive img-rounded">
-			<h3>{{name}}</h3>
+			<a href="#"><h3>{{name}}</h3></a>
 			<p>{{description}}</p>
 			<hr>
 		</div>
